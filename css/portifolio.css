@@ -1,0 +1,99 @@
+/*my css*/
+body {
+    background-color: #fdd564;
+    font-family: 'mali', cursive;
+}
+
+nav ul {
+    list-style-type: none;
+   
+    padding-top: 1rem;
+    margin: 0;
+    text-align: end;
+}
+nav li {
+   
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    
+}
+nav a {
+    display: block;
+    text-decoration: none;
+}
+a:hover {
+    background-color: white;
+    color: blue;
+}
+
+div {
+    padding-top: 0;
+    width: 80rem;
+    margin: 0 auto;
+    background-color: darkred;
+    margin-bottom: 2rem;
+    border-radius: 7rem;
+    padding-left: 2rem;
+}
+.floatleft {
+    float: left;
+    /*TRBL*/
+    margin: 0 1rem 1rem 0;
+}
+div:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1, h3 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0;
+    margin-bottom: 0;
+    color: yellow;
+    background-color: darkred;
+    padding-left: 5rem;
+}
+p {
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+form a {
+   
+    font-size: 1.3rem;
+    background-color: red;
+    margin: 0.1rem;
+    padding: 0.2rem;
+}
+img {
+    border-radius: 20rem;
+}
+.box2 {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 10rem;
+}
+.box1 {
+    list-style-type: none;
+    font-size: 2rem;
+    color: white;
+}
+ul li a {
+    text-decoration: none;
+    background-color: red;
+    display: block;
+}
+legend a {
+    text-decoration: none;
+}
+.fox {
+    background-color: darkred;
+}
